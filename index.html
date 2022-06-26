@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-<meta charset="UTF-8">
-<title> Hello World!</title>
-</head>
-<body>
-<h1> Hello World!</h1>
-<p>I so hope this tutorial works....</p>
-</body>
+    <head>
+        <title>CSS Cheat Sheet</title>
+        <link rel="stylesheet" href="../Build your own Cheat Sheet/resources/styles.css">
+    </head>
+
+    <!--Heading-->
+
+    <h1>CSS Selectors and their Specificity</h1>
+
+    <!--Table-->
+
+    <table>
+        <tr>
+            <th>Selector</th>
+            <th>Description Name</th>
+            <th>Description</th>
+            <th>Specificity Value</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td class="selector">#IDname</td>
+                <td>ID</td>
+                <td>The #IDname selects a single element to give it its own unique styling.</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td class="selector">.classname</td>
+                <td>Class</td>
+                <td>The class attribute selects all HTML elements that contain this class attribute. The most common way to select an element.</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td class="selector">[attribute]</td>
+                <td>Attribute</td>
+                <td>The attribute selector can be used to target all HTML elements that contain that attribute.</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td class="selector">p, h1, h2, etc.</td>
+                <td>Type</td>
+                <td>The type selector matches <strong>the type</strong> of the element in HTML without the angle brackets.</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td class="selector">*</td>
+                <td>Universal</td>
+                <td>The Universal selector selects all elements of <strong>any</strong> type. It's used for resetting default browser styling and for selecting all children of a parent element. </td>
+                <td>0</td>
+            </tr>
+        </tbody>
+       
+       
+    </table>
 </html>
